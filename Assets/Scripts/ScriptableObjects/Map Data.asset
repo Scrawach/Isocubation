@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3e0cb646c74fa2bc6b3c2be93919e2, type: 3}
+  m_Name: Map Data
+  m_EditorClassIdentifier: 
+  WalkerData: {fileID: 11400000, guid: c4a0dd405ced5c4e6b69fe382d42d059, type: 2}
+  Borders:
+    x: 0
+    y: 0
+    width: 20
+    height: 20
+  StartPosition: {x: 5, y: 5}
+  InitWalkersCount: 2
+  MinWalkerCount: 1
+  MaxWalkerCount: 10
+  ChanceKillWalker: 0.2
+  ChanceSpawnWalker: 0.2
+  PercentToFill: 0.3
